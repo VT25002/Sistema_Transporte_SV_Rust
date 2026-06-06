@@ -22,3 +22,13 @@ impl Departamento {
         }
     }
 }
+#[derive(Debug, Clone)]
+pub struct Carretera {
+    pub distancia_km: f64,
+}
+
+impl Carretera {
+    pub fn new(distancia_km: f64) -> Self {
+        Self { distancia_km }
+    }
+}
