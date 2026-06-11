@@ -5,5 +5,5 @@ pub mod validaciones;
 pub mod interfaz;
 
 fn main() {
-    
+    interfaz::ejecutar_sistema();
 }
